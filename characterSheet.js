@@ -1,37 +1,37 @@
 const data = {
-  name: 'Claudio',
-  player: 'Ryan',
-  occupation: 'Caçador',
-  age: 21,
+  name: 'Jake',
+  player: 'Marcos',
+  occupation: 'Jornalista',
+  age: 26,
   sex: 'male',
-  birthplace: 'São paulo',
-  residence: 'São paulo',
+  birthplace: 'São paulo Ribeirão preto',
+  residence: 'Acre',
 
   life: {
-    current: 12,
-    max: 12,
+    current: 20,
+    max: 20,
   },
   sanity: {
-    current: 62,
-    max: 62,
+    current: 27,
+    max: 52,
   },
 
   weapons: [
     {
-      name: 'Balestra',
-      type: 'Arco',
-      damage: '1d20',
-      numCurrent: 1,
-      numMax: 1,
+      name: 'revolver',
+      type: 'Amas de fogo',
+      damage: '2d5',
+      numCurrent: 6,
+      numMax: 6,
       attack: 5,
       reach: '10 m',
       defect: 1,
       area: '',
     },
     {
-      name: 'Canivete',
-      type: 'Briga',
-      damage: '1d10',
+      name: '',
+      type: '',
+      damage: '',
       numCurrent: '',
       numMax: '',
       attack: '1/2',
@@ -43,35 +43,35 @@ const data = {
   attributes: [
     {
       type: 'Aparência',
-      amount: 10,
+      amount: 2,
     },
     {
       type: 'Constituição',
-      amount: 10,
+      amount: 18,
     },
     {
       type: 'Destreza',
-      amount: 10,
+      amount: 16,
     },
     {
-      type: 'Educação',
-      amount: 10,
+      type: 'Ciência forense ',
+      amount: 18,
     },
     {
       type: 'Força',
-      amount: 10,
+      amount: 12,
     },
     {
       type: 'Inteligência',
-      amount: 10,
+      amount: 6,
     },
     {
       type: 'Poder',
-      amount: 10,
+      amount: 18,
     },
     {
       type: 'Sorte',
-      amount: 10,
+      amount: 6,
     },
   ],
 }
